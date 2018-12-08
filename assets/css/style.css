@@ -1,0 +1,66 @@
+body{
+    background-image: url("../images/background1.jpg");
+	font-size: 25px;
+}
+
+h1 {
+
+    color:rgb(209, 145, 8);
+    background: rgb(94, 11, 5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.container {
+    background: rgba(153, 170, 181, 0.575);
+    padding: 40px;
+ 
+}
+.btn-primary,.reset{
+	background: rgb(26, 27, 29);
+	color: white;
+	font-size: 30px;
+	padding: 20px;
+
+}
+
+.answerChosen:hover{
+	background:rgb(41, 45, 49);
+	color: white;
+	padding: 10px;
+}
+
+.btn-primary:hover, .reset:hover{
+	background: rgb(58, 66, 71);
+}
+
+#gif{
+	margin: 30px;
+}
+
+.possibleAnswers {
+    position: static;
+}
+
+.picks {
+    width: 100%;
+}
+
+#resultMessage {
+    font-size: 35px;
+    color: rgb(105, 21, 10);
+    font: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#correctAnswer {
+    font: bolder;
+    color: black;
+}
+
+#numberCorrect, #numberWrong, #numberUnanswered {
+    font: bolder;
+    font-size: 30px;
+    color: rgb(14, 3, 3);
+    
+}
