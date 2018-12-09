@@ -10,8 +10,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
-    <br><br>
+<body class="background">
+    <br>
+    <br>
+    <!-- Title Area -->
     <div class ="jumbotron-fluid">
         <div class ="container">
             <div class ="row text">
@@ -21,34 +23,38 @@
             </div>
         </div>
     </div>
+
+    <!-- Game Area -->
     <div class ="container">
         <div class ="row">
             <div class ="col-lg-12 text-center">
-                <button class ="btn btn-primary" id="startBtn">Start Quiz</button>
+                <button class ="btn btn-primary" id="startButton">Start</button>
                 
-                <!-- Question Area -->
+                <!-- Question Components -->
                 <div id ="remainingTime"></div>
+                
+                <div id ="displayQuestion"></div>
+                <br>
+                <div id ="possibleAnswers"></div>
                 <div id ="questionCount"></div>
-                <div class ="question"></div>
-                <br>
-                <div class ="possibleAnswers"></div>
 
-                <!-- Answer Box-->
+                <!-- Answer Components-->
                 <br>
-                <div id ="resultMessage"></div>
+                <div id ="resultAlerts"></div>
                 <br>
                 <div id ="correctAnswer"></div>
                 <div id ="gif"></div>
 
-                <!-- End of Game / Final Score Area -->
+                <!-- End of Game / Final Score -->
                 <div id ="finalResult"></div>
+                <br>
+                <div id ="numberUnanswered"></div>
                 <br>
                 <div id ="numberCorrect"></div>
                 <br>
                 <div id ="numberWrong"></div>
                 <br>
-                <div id ="numberUnanswered"></div>
-                <div id ="restartBtn"></div>
+                <div><button class ="btn btn-danger btn-lg restart" id="startButton">Restart</button></div>
             </div>
         </div>
     </div>
