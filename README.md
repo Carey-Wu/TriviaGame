@@ -33,3 +33,5 @@ CSS is really up to you to make things look like you would like them to look.  I
 ### Info
 
 For help with this project, you can contact Carey on GitHub at Carey-Wu.  This project is maintained by Carey Wu as well.
+
+https://carey-wu.github.io/TriviaGame
